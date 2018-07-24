@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\oneca\documents\visual studio 2015\projects\longest nap\longest nap\main.cpp(9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+  longest nap.vcxproj -> c:\users\oneca\documents\visual studio 2015\Projects\longest nap\Debug\longest nap.exe
+  longest nap.vcxproj -> c:\users\oneca\documents\visual studio 2015\Projects\longest nap\Debug\longest nap.pdb (Full PDB)
