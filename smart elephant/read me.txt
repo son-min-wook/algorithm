@@ -1,0 +1,51 @@
+Problem 4: Smart elephant
+? Some people think that the bigger an elephant is, the smarter
+it is. To disprove this, you want to analyze a collection of
+elephants and place as large a subset of elephants as possible
+into a sequence whose weights are increasing but IQ¡¯s are
+decreasing.
+---------------------------------------------------------------------
+Input
+? The input will consist of data for a bunch of elephants, at on
+elephant per line terminated by the end-of-file.
+? The data for each particular elephant will consist of a pair of
+integers: the first representing its size in kilograms and the second
+representing its IQ in the hundredths of IQ points.
+? Both integers are between 1 and 10,000.
+? The data contains information on at most 1,000 elephants.
+? Two elephants may have the same weight, the same IQ, or even
+the same weight and IQ.
+-----------------------------------------------------------------------------
+Output
+? The first output line should contain an integer n, the length of
+elephant sequence found.
+? The remaining n lines should each contain a single positive integer
+representing an elephant
+? Denote the numbers on the ith data line as W[i] and S[i].
+? If these sequence of n elephants are a[1], a[2], ¡¦, a[n] then it must
+be the case that
+? W[a[1]] < W[a[2]]< ¡¦ < W[a[n]] and S[a[1]] > S[a[2]] > ¡¦ >
+S[a[n]]i
+----------------------------------------------------------------------------
+In order for the answer to be correct, n must be as large as possible. All
+inequalities are strict: weights must be strictly increasing, and IQs must
+be strictly decreasing.
+? Your program can report any correct answer for a given input.
+--------------------------------------------------------------------------------
+Sample Input
+6008 1300
+6000 2100
+500 2000
+1000 4000 ---- (1)
+1100 3000 ---- (2)
+6000 2000
+8000 1400 ----(4)
+6000 1200
+2000 1900 ---- (3)       
+
+Sample Output
+4
+4
+5
+9
+7                     
