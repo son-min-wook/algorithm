@@ -1,0 +1,38 @@
+Problem 4: Distinct Subsequences
+? A subsequence of a given sequence S consists of S with zero
+or more elements deleted. Formally, a sequence Z = z1 z2 ・ zk
+is a subsequence of X = x1 x2 ・ xm if there exists a strictly
+increasing sequence < i1 i2 ・ ik > of indices of X such that for
+all j = 1, 2, ・, k, we have xij = zj.
+? For example, Z = bcdb is a subsequence of X = abcbdab
+with corresponding index sequence < 2, 3, 5, 7 >.
+? Your job is to write a program that counts the number of
+occurrences of Z in X as a subsequence such that each has a
+distinct index sequence.
+----------------------------------------------------------------------------
+Input
+? The first line of the input contains an integer N indicating the
+number of test cases to follow.
+? The first line of each test case contains a string X, composed entirely
+of lowercase alphabetic characters and having length no greater
+than 10,000.
+? The second line contains another string Z having length no greater
+than 100 and also composed of only lowercase alphabetic characters.
+? Be assured that neither Z nor any prefix or suffix of Z will have more
+than 10100 distinct occurrences in X as a subsequence.
+-------------------------------------------------------------------------------
+Output
+? For each test case, output the number of distinct
+occurrences of Z in X as a subsequence.
+? Output for each input set must be on a separate line.
+--------------------------------------------------------------------------------
+Sample Input
+2
+babgbag
+bag
+rabbbit
+rabbit
+  
+Sample Output
+5
+3
