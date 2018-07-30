@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<stdlib.h>
 #include <math.h>
-int source, f, n, edge = 0, spot[30][2];
+int source, f, n, edge = 0, spot[30][2];       //
 float weight[100][3], table[30][30];
 int cycle(int start, int end)                  //find it make cycle or not.
 {
