@@ -1,0 +1,17 @@
+﻿  main.cpp
+c:\users\oneca\documents\visual studio 2015\projects\saving ink\saving ink\main.cpp(8): warning C4101: 'k' :참조되지 않은 지역 변수입니다.
+c:\users\oneca\documents\visual studio 2015\projects\saving ink\saving ink\main.cpp(28): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\oneca\documents\visual studio 2015\projects\saving ink\saving ink\main.cpp(29): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\oneca\documents\visual studio 2015\projects\saving ink\saving ink\main.cpp(22): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+c:\users\oneca\documents\visual studio 2015\projects\saving ink\saving ink\main.cpp(22): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+c:\users\oneca\documents\visual studio 2015\projects\saving ink\saving ink\main.cpp(79): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\oneca\documents\visual studio 2015\projects\saving ink\saving ink\main.cpp(80): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\oneca\documents\visual studio 2015\projects\saving ink\saving ink\main.cpp(81): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\oneca\documents\visual studio 2015\projects\saving ink\saving ink\main.cpp(46): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+c:\users\oneca\documents\visual studio 2015\projects\saving ink\saving ink\main.cpp(55): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: 'fscanf' 선언을 참조하십시오.
+c:\users\oneca\documents\visual studio 2015\projects\saving ink\saving ink\main.cpp(59): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: 'fscanf' 선언을 참조하십시오.
+  saving ink.vcxproj -> c:\users\oneca\documents\visual studio 2015\Projects\saving ink\Debug\saving ink.exe
+  saving ink.vcxproj -> c:\users\oneca\documents\visual studio 2015\Projects\saving ink\Debug\saving ink.pdb (Full PDB)

@@ -1,0 +1,27 @@
+Problem 8: Saving ink
+? Susan likes to make a line drawing with ink. There ¡®re several
+dots on drawing paper. Your job is to tell Susan how to
+connect the dots so as to minimize the amount of ink used.
+? Susan connects the dots by drawing straight lines between pairs,
+possibly lifting the pen between lines.
+? When Susan is done there must be a sequence of connected lines
+from any dot to any other dot.
+? Test using 3 different data sets (test cases).
+-------------------------------------------------------------------------------
+Input
+? The input begins with a single positive integer on a line by itself
+indicating the number of dots (0<n<30) on drawing paper. For each
+dots, a line follows; each following line contains two real numbers
+indicating the (x, y) coordinates of the dots.
+? Output
+? Your program must print a single real number to two decimal places:
+the minimum total length of ink lines that can connect all the dots.
+---------------------------------------------------------------------------------
+Sample input
+? 3
+? 1.0 1.0
+? 2.0 2.0
+? 2.0 4.0
+
+Sample output
+?3.41
