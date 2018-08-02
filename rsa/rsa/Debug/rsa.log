@@ -1,0 +1,10 @@
+﻿  main.cpp
+c:\users\oneca\documents\visual studio 2015\projects\rsa\rsa\main.cpp(26): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+c:\users\oneca\documents\visual studio 2015\projects\rsa\rsa\main.cpp(30): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+c:\users\oneca\documents\visual studio 2015\projects\rsa\rsa\main.cpp(69): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+c:\users\oneca\documents\visual studio 2015\projects\rsa\rsa\main.cpp(168): warning C4101: 'num' :참조되지 않은 지역 변수입니다.
+  rsa.vcxproj -> c:\users\oneca\documents\visual studio 2015\Projects\rsa\Debug\rsa.exe
+  rsa.vcxproj -> c:\users\oneca\documents\visual studio 2015\Projects\rsa\Debug\rsa.pdb (Full PDB)

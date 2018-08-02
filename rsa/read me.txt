@@ -1,0 +1,16 @@
+Problem 12: The RSA Problem
+」 Alice and Bob agree on an encryption method and a shared key.
+」 Alice encrypts a plaintext M for Bob using Bob¨s public key(n, e)
+by computing the ciphertext C = Me (mod n).
+」 Given an RSA public Key (n, e) and a ciphertext C Me (mod n),
+to compute M(original message).
+」 To solve the RSA Problem an adversary, who doesn¨t know the
+private key, must nonetheless invert the RSA function.
+-----------------------------------------------------------------------------
+You can use the following algorithms to solve the RSA
+algorithm.
+」 Miller Rabin algorithm
+」 Euclid¨s algorithm
+」 Extend Euclid¨s algorithm
+」 Repeated Squaring algorithm
+」 Write C programming code to solve the given RSA problem.
