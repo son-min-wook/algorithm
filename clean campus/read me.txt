@@ -1,0 +1,51 @@
+Problem 13 : Clean Campus
+」 One day, a lawn in the center of campus became infested with frosh. In an
+effort to clean the campus, one of our illustrious senior classmen decided to
+round them up using a length of blue silk.
+」 Your job is to compute how much silk was required to complete task.
+」 The senior classman tied the silk to a stake, and walked around the perimeter of
+the area containing the frosh, drawing the silk taught so as to encircle all of
+them. He then returned to the stake. The senior classman used the minimum
+amount of silk necessary to encircle all the frosh plus one extra meter at each
+end to tie it
+-----------------------------------------------------------------------------------------------
+One day, a lawn in the center of campus became infested with frosh. In an
+effort to clean the campus, one of our illustrious senior classmen decided to
+round them up using a length of blue silk.
+」 Your job is to compute how much silk was required to complete task.
+」 The senior classman tied the silk to a stake, and walked around the perimeter of
+the area containing the frosh, drawing the silk taught so as to encircle all of
+them. He then returned to the stake. The senior classman used the minimum
+amount of silk necessary to encircle all the frosh plus one extra meter at each
+end to tie it
+-----------------------------------------------------------------------------------------------
+You may assume that the stake is at coordinates (0,0), where
+the first dimension is north/south and the second dimension is
+east/west. The coordinates of the frosh are given in meters
+relative to the stake. There are no more than 100 frosh.
+」 Write C programming code using Graham¨s scan algorithm
+to compute how much silk was required to complete task.
+---------------------------------------------------------------------------------------------
+Input
+」 The input begins with a single positive integer on a line by itself indicating
+the number of test cases, followed by a blank line.
+」 Each test case consists of a line specifying the number of frosh, followed
+by one line per frosh with two real numbers given his or her position.
+」 There is a blank line between two consecutive inputs.
+------------------------------------------------------------------------------------------
+Output
+」 For each test case, the output consists of a single number: the length of
+silk in meters to two decimal places.
+」 The output of two consecutive cases will be separated by an blank line.
+--------------------------------------------------------------------------------------
+Sample input
+」 1
+」 4
+」 1.0 1.0
+」 -1.0 1.0
+」 -1.0 -1.0
+」 1.0 -1.0
+
+Sample output
+u10.83
+-----------------------------------------------------------------------------------------
