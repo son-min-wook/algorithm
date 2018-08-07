@@ -1,4 +1,4 @@
-Problem 16: Funny Ches
+Problem 16: Funny Chess
 A bishop is a piece used in the game of chess which is played on a
 board of square grids
 A bishop can only move diagonally from its current
