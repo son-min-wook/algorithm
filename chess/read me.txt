@@ -7,7 +7,7 @@ on the path of the other.
 」 In the following figure, the dark squares represent
 the reachable locations for bishop B1 form its
 current position.
-」 The figure also shows that the bishops B1and B2
+ The figure also shows that the bishops B1and B2
 are in attacking positions whereas B1and B3 are not.
 B2 and B3are also in non-attacking positions.
 ----------------------------------------------------------------------
@@ -33,7 +33,8 @@ Sample input
 」 4 4
 5 2
 0 0
-
+ 
+ 
 Sample output
 u 260
 u 240
