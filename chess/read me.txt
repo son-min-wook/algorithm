@@ -1,36 +1,36 @@
-Problem 16: Funny Chess
+Problem 16: Funny Ches
 A bishop is a piece used in the game of chess which is played on a
 board of square grids
 A bishop can only move diagonally from its current
 position and two bishops attack each other if one is
 on the path of the other.
-¡× In the following figure, the dark squares represent
+ã€ In the following figure, the dark squares represent
 the reachable locations for bishop B1 form its
 current position.
-¡× The figure also shows that the bishops B1and B2
+ã€ The figure also shows that the bishops B1and B2
 are in attacking positions whereas B1and B3 are not.
 B2 and B3are also in non-attacking positions.
 ----------------------------------------------------------------------
 Now, given two numbers n and k, your job is to determine the
-number of ways one can put k bishops on an n ¡¿ n
+number of ways one can put k bishops on an n ï¼ n
 chessboard so that no two of them are in attacking positions.
 -----------------------------------------------------------------------
 Input
-¡× The input file may contain multiple test cases. Each test case
+ã€ The input file may contain multiple test cases. Each test case
 occupies a single line in the input file and contains two integers n (1
-¡Â n ¡Â 10) and k (0 ¡Â k ¡Â n).
-¡× A test case containing two zeros for n and k terminates the input
-and you won¡¯t need to process this particular input.
+âˆ¥ n âˆ¥ 10) and k (0 âˆ¥ k âˆ¥ n).
+ã€ A test case containing two zeros for n and k terminates the input
+and you wonÂ¨t need to process this particular input.
 ---------------------------------------------------------------------------
 Output
-¡× For each test case in the input print a line containing the total
+ã€ For each test case in the input print a line containing the total
 number of ways one can put the given number of bishops on a
 chessboard of the given size so that no two of them are in attacking
 positions.
-¡× You may safely assume that this number will be less than 1015
+ã€ You may safely assume that this number will be less than 1015
 --------------------------------------------------------------------------
 Sample input
-¡× 4 4
+ã€ 4 4
 5 2
 0 0
 
