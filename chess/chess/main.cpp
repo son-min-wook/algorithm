@@ -40,7 +40,7 @@ void backtracking(int table[][10], int length, int bishop) {
 			table[i][j] ++;
 			newbishop = bishop - 1;
 			if (value == 1)
-				backtracking(table, length, newbishop);       //reculsive 
+				backtracking(table, length, newbishop);     //reculsive
 			table[i][j] --;
 		}
 	}
