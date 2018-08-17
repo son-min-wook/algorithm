@@ -1,0 +1,50 @@
+Problem 17: two-color graph
+」 The four-color theorem states that every planar map can be
+colored using only four colors in such a way that no region is
+colored using the same color as a neighbor.
+」 After being open for over 100 years, the theorem was proven in
+1976 with the assistance of a computer. Here you are asked to solve
+a simpler problem.
+」 Decide whether a given connected graph can be two-color graph, i.e.,
+can the vertices be painted red and black such that no two adjacent
+vertices have the same color.
+」 To simplify the problem, you can assume the graph will be
+connected, undirected, and not contain self-loops (i.e., edges
+from a vertex to itself).
+----------------------------------------------------------------------------------
+Input
+」 The first line contains the number of edges . (1<n_edge<30)
+」 Each case starts with a line containing the number of vertices n,
+where 1<n<30.
+」 Each vertex in labeled by a number from 0 to n-1.
+」 After this, lines follow, each containing two vertex numbers
+specifying an edge. An input with n = 0 marks the end of the input
+and is not to be processed.
+」 Output
+」 Decide whether the input graph can be 2-colored, and print the
+result as shown below.
+-------------------------------------------------------------------------------
+Sample input
+」 3
+」 0 1
+」 1 2
+」 2 0
+
+」 4
+」 0 1
+」 0 2
+」 0 3
+」 0 4
+
+」 4
+」 0 1
+」 0 2
+」 0 3
+」 2 3
+
+
+
+Sample output
+u not two-color graph
+u two-color graph
+u not two-color graph
