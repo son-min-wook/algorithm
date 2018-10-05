@@ -1,0 +1,9 @@
+﻿  main.c
+c:\users\oneca\documents\visual studio 2015\projects\meno sorting\meno sorting\main.c(22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\oneca\documents\visual studio 2015\projects\meno sorting\meno sorting\main.c(94): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\oneca\documents\visual studio 2015\projects\meno sorting\meno sorting\main.c(167): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\oneca\documents\visual studio 2015\projects\meno sorting\meno sorting\main.c(243): warning C4090: '함수': 'const' 한정자가 서로 다릅니다.
+c:\users\oneca\documents\visual studio 2015\projects\meno sorting\meno sorting\main.c(243): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+c:\users\oneca\documents\visual studio 2015\projects\meno sorting\meno sorting\main.c(243): warning C4028: 정식 매개 변수 2이(가) 선언과 다릅니다.
+  meno sorting.vcxproj -> c:\users\oneca\documents\visual studio 2015\Projects\meno sorting\Debug\meno sorting.exe
+  meno sorting.vcxproj -> c:\users\oneca\documents\visual studio 2015\Projects\meno sorting\Debug\meno sorting.pdb (Full PDB)
